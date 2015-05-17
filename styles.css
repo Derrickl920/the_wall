@@ -1,0 +1,66 @@
+ 	*{
+ 		font-family: sans-serif;
+ 	}
+
+ 	body{
+ 		background-color: lightgray;
+ 		width: 970px;
+ 	}
+ 	#register{
+ 		text-align: left;
+ 		display: inline-block;
+ 		margin-right: 500px;
+ 	}
+ 	#login{
+ 		text-align: right;
+ 		display: inline-block;
+ 	}
+ 	.errors{
+ 		color: red;
+ 	}
+ 	.success{
+ 		color: green;
+ 	}
+
+ 	#header h2, h4, a
+ 	{
+ 		display: inline-block;
+ 	}
+
+ 	#header h2{
+ 		margin-right: 425px;
+ 	}
+ 	#header h4{
+ 		margin-right: 50px;
+
+ 	}
+ 	#content{
+ 		margin-left: 75px;
+ 	}
+
+ 	#textbox{
+ 		height: 125px;
+ 		width: 700px;
+ 	}
+ 	#textbox, #content input{
+ 		text-align: left;
+ 	}
+ 	#commentbox{
+ 		height: 70px;
+ 		width: 500px;
+ 		margin-top: 0px;
+ 	}
+ 	#commentform{
+ 		margin-left: 50px;
+ 	}
+ 	#message{
+ 		border-style: solid;
+ 		border-width: thin;
+ 		margin:10px;
+ 	}
+ 	h3{
+ 		color: darkblue;
+ 	}
+ 	h5{
+ 		color: blue;
+ 	}
