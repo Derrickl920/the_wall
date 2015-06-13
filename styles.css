@@ -1,19 +1,32 @@
  	*{
- 		font-family: sans-serif;
+ 		font-family: GameOfThrones;
  	}
 
- 	body{
- 		background-color: lightgray;
- 		width: 970px;
+ 	@import url(http://fonts.googleapis.com/css?family=Lato);
+	@font-face {
+    font-family: GameOfThrones;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/29725/got.ttf);
+	}	
+ 	#home-container{
+ 		background-image: url('https://patricksponaugle.files.wordpress.com/2013/12/game-of-thrones-poster-north-of-the-wall.jpg');
  	}
- 	#register{
- 		text-align: left;
- 		display: inline-block;
- 		margin-right: 500px;
+ 	#home-container{
+ 		border: 5px solid black;
  	}
- 	#login{
- 		text-align: right;
- 		display: inline-block;
+ 	#login-register{
+ 		font-family: ;
+        background: linear-gradient(#E6E6E6, lightgray);
+        opacity: 0.9;
+ 		border: 1px solid black;
+ 		text-align: center;
+ 		display: block;
+ 		position: relative;
+ 		width: 50%;
+ 		margin-top: 50px;
+ 		margin-bottom: 50px;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 	
  	}
  	.errors{
  		color: red;
@@ -21,46 +34,120 @@
  	.success{
  		color: green;
  	}
+ 	#wall-container{
+ 	background: rgb(225,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(225,255,255,1) 0%, rgba(225,255,255,1) 7%, rgba(225,255,255,1) 12%, rgba(253,255,255,1) 12%, rgba(230,248,253,1) 30%, rgba(200,238,251,1) 54%, rgba(190,228,248,1) 75%, rgba(177,216,245,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(225,255,255,1)), color-stop(7%,rgba(225,255,255,1)), color-stop(12%,rgba(225,255,255,1)), color-stop(12%,rgba(253,255,255,1)), color-stop(30%,rgba(230,248,253,1)), color-stop(54%,rgba(200,238,251,1)), color-stop(75%,rgba(190,228,248,1)), color-stop(100%,rgba(177,216,245,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(177,216,245,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 ); /* IE6-9 */
 
- 	#header h2, h4, a
- 	{
- 		display: inline-block;
  	}
+ 	#header{
+		background: rgb(255,255,255); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
 
- 	#header h2{
- 		margin-right: 425px;
+ 	}
+ 	#header h1{
+ 		/*margin-right: 425px;*/
+ 		margin-left: 50px;
+ 	}
+ 	#header button{
+ 		width: auto;
+ 		/*margin-left: -70px;*/
+ 		margin-top: 15px;
  	}
  	#header h4{
- 		margin-right: 50px;
+ 		/*margin-right: 50px;*/
 
  	}
  	#content{
+ 		width: 700px;
+ 		position: relative;
+ 		margin-left: auto;
+ 		margin-right: auto;
+	}
+ 	#postamessage{
+ 		width: 700px;
+ 	}
+ 	#postamessage input{
+ 		margin-top: 3px;
+ 		margin-left: 5px;
+ 	}
+ 	#postedmessage{
+ 		margin-top: -25px;
+ 		margin-left: 30px;
+ 	}
+ 	#postedmessage p{
+ 		font-size: 20px;
+ 	}
+ 	#newcomment{
+ 		margin-top: -20px;
+ 		margin-left: 50px;
+ 	}
+ 	#commentname h4{
+ 		color: green;
+ 	}
+ /*	#postedcomment{
+ 		margin-top:-10px;
  		margin-left: 75px;
+ 		margin-bottom: 10px;
+ 	}*/
+
+ 	#commentform input{
+ 		margin-top: 3px;
+ 		margin-left: 5px;
  	}
 
  	#textbox{
- 		height: 125px;
- 		width: 700px;
+ 		height: 100px;
+ 		width: 600px;
+ 		border: 1px solid #DDDDDD;
+ 		border-radius: 3px 3px 3px 3px;
+    	box-shadow: 1px 1px 3px #EEEEEE inset;
  	}
  	#textbox, #content input{
  		text-align: left;
  	}
  	#commentbox{
- 		height: 70px;
- 		width: 500px;
+ 		height: 60px;
+ 		width: 400px;
  		margin-top: 0px;
+ 		border: 1px solid #DDDDDD;
+ 		border-radius: 3px 3px 3px 3px;
+   		box-shadow: 1px 1px 3px #EEEEEE inset;
  	}
- 	#commentform{
- 		margin-left: 50px;
- 	}
+
  	#message{
- 		border-style: solid;
- 		border-width: thin;
+ 		width: 700px;
  		margin:10px;
  	}
- 	h3{
- 		color: darkblue;
+ 	#message h3{
+ 		color: blue;
  	}
+ 	textarea{
+ 		resize: none;
+ 	}
+
  	h5{
  		color: blue;
+ 	}
+ 	hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+	} 
+ 		border-style: thick;
  	}
